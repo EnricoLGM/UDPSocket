@@ -19,7 +19,6 @@ public class MainServer {
         Server s=new Server(2000);
         Date d=new Date();
         while(true) {
-            
             s.comunicazione("Ciao Client! " + d.toString());
         }
     }

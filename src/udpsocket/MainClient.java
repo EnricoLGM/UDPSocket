@@ -4,6 +4,8 @@
  */
 package udpsocket;
 
+import java.util.Date;
+
 /**
  *
  * @author enric
@@ -14,7 +16,8 @@ public class MainClient {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Client c=new Client(2000);
+        c.comunicazione("Richiesta Data e Ora");
     }
     
 }
